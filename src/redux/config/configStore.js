@@ -1,10 +1,14 @@
-import { legacy_createStore as createStore } from "redux";
+import { createStore } from "redux";
 import { combineReducers } from "redux";
-import toDo from "../modules/toDo";
+import todos from "../modules/todos";
 
+// 1. create rootReducer with reducers
 const rootReducer = combineReducers({
-  toDo: toDo,
+  todos,
 });
+
+// 2. create store
 const store = createStore(rootReducer);
 
+// 3. export
 export default store;
