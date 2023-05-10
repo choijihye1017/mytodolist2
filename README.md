@@ -9,6 +9,10 @@
  - 상세페이지에 해당 ID / 제목 / 내용 / 돌아가기 링크 렌더링
  - 입력창에 타이핑한 상태에서 상세보기 누른후 다시 돌아가기 누르면 입력창 비우기
  
- 3. 해결하지 못한 부분
-  - 각 페이지 마다 import "./App.css" 오류로 css 미완성
-  (상세페이지 테두리, todo박스의 state가 변경할때마다 퍼졌다 모였다 함) 
+ 3. 수정한 부분
+ - styled components 만들기
+ - work.jsx파일명 - detail.jsx로 변경
+ - ToDolist/DoneList 하나로 합치기
+ 
+
+
